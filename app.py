@@ -29,7 +29,7 @@ def load_model():
 
 gpt2_pipeline = load_model()
 
-st.title("GPT-2 Small Chatbot Demo")
+st.title("RMDS Chatbot Demo - GPT-2 Small")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
